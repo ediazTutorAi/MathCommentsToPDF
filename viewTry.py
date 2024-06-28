@@ -70,6 +70,8 @@ class PDFViewer(QMainWindow):
         self.grade_entry = QLineEdit()
         right_layout.addWidget(self.grade_entry)
 
+        #TODO Add the possibility to add more questions
+
         date_given_label = QLabel("Date Activity Given:")
         right_layout.addWidget(date_given_label)
         self.date_given_entry = QDateEdit()
